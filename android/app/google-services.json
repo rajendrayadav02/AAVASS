@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "899786596480",
+    "project_id": "aavas-95dbf",
+    "storage_bucket": "aavas-95dbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899786596480:android:5163e8db0f536cda858665",
+        "android_client_info": {
+          "package_name": "com.example.aavass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899786596480-dcovtn4du3fq5vke7pv14cmj6u2jltjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqG9pHUnW5My58QSzsiNXfMwiajTukAUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899786596480-dcovtn4du3fq5vke7pv14cmj6u2jltjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
