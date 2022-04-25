@@ -41,7 +41,7 @@ class ProductDescription extends StatelessWidget {
                 bottomLeft: Radius.circular(20),
               ),
             ),
-            child: SvgPicture.asset(
+           child: SvgPicture.asset(
               "assets/icons/Heart Icon_2.svg",
               color:
                   product.isFavourite ? Color(0xFFFF4848) : Color(0xFFDBDEE4),

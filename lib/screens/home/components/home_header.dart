@@ -19,15 +19,15 @@ class HomeHeader extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           SearchField(),
-          IconBtnWithCounter(
+        /*  IconBtnWithCounter(
             svgSrc: "assets/icons/Cart Icon.svg",
             press: () => {},
-          ),
+          ),*/
           IconBtnWithCounter(
-            svgSrc: "assets/icons/Bell.svg",
-            //numOfitem: 0,
-            press: () {},
-          ),
+           svgSrc: "assets/icons/Bell.svg",
+          numOfitem: 0,
+           press: () {},
+           ),
         ],
       ),
     );

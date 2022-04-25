@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../size_config.dart';
 import '../../sign_in/sign_in_screen.dart';
+import 'package:aavass/screens/form/form_screen.dart';
 
 class Categories extends StatelessWidget {
   @override
@@ -24,14 +25,13 @@ class Categories extends StatelessWidget {
           (index) => CategoryCard(
             icon: categories[index]["icon"],
             text: categories[index]["text"],
-            press: () => Navigator.pushNamed(context, SignInScreen.routeName),
+            press: () => Navigator.pushNamed(context, FormScreen.routeName),
           ),
         ),
       ),
     );
   }
 }
-
 
 class CategoryCard extends StatelessWidget {
   const CategoryCard({
@@ -68,6 +68,5 @@ class CategoryCard extends StatelessWidget {
         ),
       ),
     );
-
   }
 }
